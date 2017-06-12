@@ -1,0 +1,139 @@
+/*carousel center the image*/
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+/*carrousel bottom space*/
+#block-views-block-carrousel-view-block-1{
+	margin-bottom: 20px;
+}
+
+/*title*/
+#title{
+	color:#330080;
+	text-align:center;
+	text-decoration: 1px solid;
+	height:50%;
+	
+	
+}
+
+/*footer region*/
+
+footer  ul li{
+	padding: 1px;
+	margin-top:2px;
+	background-color:rgb(176,176,176);
+}
+
+footer ul li a{
+	text-align:center;
+	display:inline-block;	
+	border-right: none;
+	color:#330080;
+}
+
+footer ul li a:hover{
+	background-color: rgb(255, 255, 255);
+}
+
+footer ul li:first-child a{
+	text-decoration: none;
+}
+
+footer  ul li:last-child a{
+	border-right: none;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+	footer {
+		background-color: #F8F8F8;
+	}
+	
+	footer ul li a{
+		text-align:center;
+		display:inline-block;	
+		border-right: solid 1px black;
+		color:#330080;
+	}
+
+	footer  ul li a:hover{
+		background-color: rgb(255, 255, 255);
+	}
+
+	footer  ul li:first-child a{
+		text-decoration: none;
+	}
+
+	footer ul li:last-child a{
+		border-right: none;
+	}
+	footer ul li{
+		padding: 1px;
+		margin-top:2px;
+		background-color:#F8F8F8;
+	}
+	
+	#block-mainnavigation > ul {
+		position: relative;
+		text-align:center;
+		display:inline-block;
+		left: 37%;
+	}
+	
+
+}
+
+@media only screen and (min-width : 992px) {
+	
+	footer {
+		background-color: #F8F8F8;
+	}
+	
+	footer ul li a{
+		text-align:center;
+		display:inline-block;	
+		border-right: solid 1px black;
+		color:#330080;
+	}
+
+	footer ul li a:hover{
+		background-color: rgb(255, 255, 255);
+	}
+
+	footer  ul li:first-child a{
+		text-decoration: none;
+	}
+
+	footer  ul li:last-child a{
+		border-right: none;
+	}
+	footer ul li{
+		padding: 1px;
+		margin-top:2px;
+		background-color:#F8F8F8;
+	}
+	#block-mainnavigation > ul {
+		position: relative;
+		text-align:center;
+		display:inline-block;
+		left: 37%;
+	}
+	
+	
+	
+}
+
+
